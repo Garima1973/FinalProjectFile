@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: java-app
-          image: garima3201/finalprojectfile:latest
+          image: garima3201/finalprojectdockerjenkins:latest
           env:
             - name: SPRING_DATASOURCE_URL
               value: jdbc:postgresql://postgres-service:5432/finalprojectdb
